@@ -28,6 +28,7 @@ except:
 IMG_SAVE_PATH = 'image_data'
 IMG_CLASS_PATH = os.path.join(IMG_SAVE_PATH, label_name)
 
+
 try:
     os.mkdir(IMG_SAVE_PATH)
 except FileExistsError:
